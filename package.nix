@@ -32,7 +32,7 @@
 }:
 
 let
-  version = "1417.47";
+  version = "1468.30";
 
   platformMap = {
     "x86_64-linux" = "linux-amd64";
@@ -44,10 +44,10 @@ let
   platform = platformMap.${stdenv.hostPlatform.system} or null;
 
   hashes = {
-    "linux-amd64" = "1mn153skhh1anslspm5kg3fwvhpi81bl7681h71507773r2xqzj7";
-    "linux-aarch64" = "1wkm8a5zqw4m49i7gm573y41f34zpqvjpdilm6pfjyjxbmfv21hw";
-    "macos-amd64" = "0r1vqg4x7m9771igjyv64kqwv99p9ghk13whn91hk5hdrkgpvq8q";
-    "macos-aarch64" = "095l70s43bby1cd26cnwsg7i41dv47p2nywq2vljqmwhmc4nvhxg";
+    "linux-amd64" = "1jjj3dhp5vdkws9iz5l7mqw2g04ywcf1538ssxd0fmfzl8qs2cwa";
+    "linux-aarch64" = "17kz3cjfm9bzfnzanz0a5b99i0f4a4wmbf5ycappbjsng6fxy2y9";
+    "macos-amd64" = "1nvrna8y7d98mdjmphvi3ya6xq7kcmamwgwqj2bww6zldc0nca97";
+    "macos-aarch64" = "17ciz6vin2bykw00nq6lzr8bmbj57190vp05i1izkqgsv7sn1b82";
   };
 
   downloadUrl =
